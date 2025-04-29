@@ -39,8 +39,8 @@ export default function HomePage() {
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((currentUser) => {
       setUser(currentUser);
-      // Check if the user is admin (email is astravalorant56@gmail.com)
-      setIsAdmin(currentUser?.email === "astravalorant56@gmail.com");
+      // Check if the user is admin 
+      setIsAdmin(currentUser?.email === "ashrays1234@gmail.com");
     });
     
     return () => unsubscribe();
